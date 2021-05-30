@@ -3,19 +3,15 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="featured-posts">
-      <PostPreview />
-      <PostPreview />
-      <PostPreview />
-    </section>
+    <PostList/>
   </div>
 </template>
 
 <script>
-import PostPreview from "@/components/Posts/PostPreview";
+import PostList from "@/components/Posts/PostList"
 export default {
   components: {
-    PostPreview,
+    PostList,
   },
 };
 </script>
@@ -26,6 +22,7 @@ export default {
   position: relative;
   padding: 30px;
   box-sizing: border-box;
+  background-image: url("~assets/images/main-page-background.jpg");
   background-position: center;
   background-size: cover;
 }
