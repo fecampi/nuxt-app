@@ -30,15 +30,17 @@ import AppControlInput from "@/components/UI/AppControlInput";
 
 export default {
   components: { AppButton, AppControlInput },
-  props:{post:{type: Object, required:false}},
+  props: { post: { type: Object, required: false } },
   data() {
     return {
-      editedPost: {
-        author: "",
-        title: "",
-        thumbnailLink: "",
-        content: "",
-      },
+      editedPost: this.post
+        ? { ...this.post }
+        : {
+            author: "",
+            title: "",
+            thumbnailLink: "",
+            content: "",
+          },
     };
   },
   methods: {

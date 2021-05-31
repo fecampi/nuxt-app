@@ -2,6 +2,7 @@
   <section class="posts">
     <PostPreview
       id="1"
+      :is-admin="isAdmin"
       title="Hellho There"
       previewText="This my first post!"
       thumbnail="https://www.w3schools.com/images/picture.jpg"
@@ -23,10 +24,10 @@
 <script>
 import PostPreview from "@/components/Posts/PostPreview";
 export default {
-    components:{
-  PostPreview,
-},
-  name: "PostList",
+  components: {
+    PostPreview,
+  },
+  props: { isAdmin: { type: Boolean, default: false } },
 };
 </script>
 
