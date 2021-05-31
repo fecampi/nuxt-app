@@ -2,6 +2,7 @@ import Vue from 'vue'
 import { wrapFunctional } from './utils'
 
 const components = {
+  AdminPostForm: () => import('../../components/Admin/AdminPostForm.vue' /* webpackChunkName: "components/admin-post-form" */).then(c => wrapFunctional(c.default || c)),
   NavigationTheHeader: () => import('../../components/Navigation/TheHeader.vue' /* webpackChunkName: "components/navigation-the-header" */).then(c => wrapFunctional(c.default || c)),
   NavigationTheSideNavToggle: () => import('../../components/Navigation/TheSideNavToggle.vue' /* webpackChunkName: "components/navigation-the-side-nav-toggle" */).then(c => wrapFunctional(c.default || c)),
   NavigationTheSidenav: () => import('../../components/Navigation/TheSidenav.vue' /* webpackChunkName: "components/navigation-the-sidenav" */).then(c => wrapFunctional(c.default || c)),

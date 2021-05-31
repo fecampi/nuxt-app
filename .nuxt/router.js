@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4b5e5668 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
+const _5a4af909 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _31532be4 = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
 const _9835e4dc = () => interopDefault(import('../pages/posts/index.vue' /* webpackChunkName: "pages/posts/index" */))
 const _a0bc9cc2 = () => interopDefault(import('../pages/admin/auth/index.vue' /* webpackChunkName: "pages/admin/auth/index" */))
-const _1cb44f38 = () => interopDefault(import('../pages/admin/new-post/index.vue' /* webpackChunkName: "pages/admin/new-post/index" */))
+const _6f9ee2be = () => interopDefault(import('../pages/admin/new-post.vue' /* webpackChunkName: "pages/admin/new-post" */))
 const _2cb4e994 = () => interopDefault(import('../pages/admin/_postId.vue' /* webpackChunkName: "pages/admin/_postId" */))
 const _d3c5670c = () => interopDefault(import('../pages/posts/_id.vue' /* webpackChunkName: "pages/posts/_id" */))
 const _7a02d3ce = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -26,7 +26,7 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _4b5e5668,
+    component: _5a4af909,
     name: "about"
   }, {
     path: "/admin",
@@ -42,7 +42,7 @@ export const routerOptions = {
     name: "admin-auth"
   }, {
     path: "/admin/new-post",
-    component: _1cb44f38,
+    component: _6f9ee2be,
     name: "admin-new-post"
   }, {
     path: "/admin/:postId",

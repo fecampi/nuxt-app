@@ -2,9 +2,9 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/home/fecamp/Projetos/nuxt-app/pages/about/index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_4b5e5668"
+    "component": "/home/fecamp/Projetos/nuxt-app/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_5a4af909"
   },
   {
     "name": "admin",
@@ -30,9 +30,9 @@
   {
     "name": "admin-new-post",
     "path": "/admin/new-post",
-    "component": "/home/fecamp/Projetos/nuxt-app/pages/admin/new-post/index.vue",
-    "chunkName": "pages/admin/new-post/index",
-    "_name": "_1cb44f38"
+    "component": "/home/fecamp/Projetos/nuxt-app/pages/admin/new-post.vue",
+    "chunkName": "pages/admin/new-post",
+    "_name": "_6f9ee2be"
   },
   {
     "name": "admin-postId",
